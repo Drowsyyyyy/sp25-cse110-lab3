@@ -96,21 +96,21 @@
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" /><br /><br />
 
-            <label for="satisfaction">Overall Satisfaction:</label><br />
-            <input type="radio" name="satisfaction" value="good" /> Good
-            <input type="radio" name="satisfaction" value="okay" /> Okay
-            <input type="radio" name="satisfaction" value="bad" /> Bad <br /><br />
+            <label for="satisfaction-good">Overall Satisfaction:</label><br />
+            <input type="radio" id="satisfaction-good" name="satisfaction" value="good" /> Good
+            <input type="radio" id="satisfaction-okay" name="satisfaction" value="okay" /> Okay
+            <input type="radio" id="satisfaction-bad" name="satisfaction" value="bad" /> Bad <br /><br />
 
             <label>Features You Liked:</label><br />
-            <input type="checkbox" name="features" value="ui" /> UI Design
-            <input type="checkbox" name="features" value="ideas" /> Idea Quality
-            <input type="checkbox" name="features" value="team" /> Teamwork <br /><br />
+            <input type="checkbox" id="feature-ui" name="features" value="ui" /> UI Design
+            <input type="checkbox" id="feature-ideas" name="features" value="ideas" /> Idea Quality
+            <input type="checkbox" id="feature-team" name="features" value="team" /> Teamwork <br /><br />
 
             <label for="date">Today's Date:</label>
             <input type="date" id="date" name="date" /><br /><br />
 
-            <label for="comments">Additional Comments:</label><br />
-            <textarea id="comments" rows="4" cols="50"></textarea><br /><br />
+            <label for="form-comments">Additional Comments:</label><br />
+            <textarea id="form-comments" rows="4" cols="50"></textarea><br /><br />
 
             <label for="meeting-type">Meeting Type:</label>
             <select id="meeting-type" name="meeting-type">
@@ -122,10 +122,10 @@
             <label for="team-member">Suggest a Team Member:</label>
             <input list="team-options" name="team-member" id="team-member" />
             <datalist id="team-options">
-              <option value="Jungwon Kim" />
-              <option value="Samantha Lopez" />
-              <option value="Andre Yu" />
-              <option value="Nina Patel" />
+              <option value="Jungwon Kim">Jungwon Kim</option>
+              <option value="Samantha Lopez">Samantha Lopez</option>
+              <option value="Andre Yu">Andre Yu</option>
+              <option value="Nina Patel">Nina Patel</option>
             </datalist><br /><br />
 
             <button type="submit">Submit</button>
